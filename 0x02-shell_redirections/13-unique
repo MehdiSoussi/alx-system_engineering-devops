@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq -not -d
+uniq -not -d | sort
