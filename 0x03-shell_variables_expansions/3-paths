@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'cut -d ":" --output-delimiter=" " $PATH  | wc -w'
+cut -d ":" --output-delimiter=" " $PATH  | wc -wi
