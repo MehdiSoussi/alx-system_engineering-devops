@@ -1,2 +1,2 @@
 #!/bin/bash
-$((`tr / " " <<< "$PATH" | wc -w `/ 2))
+tr -s / ":" "\n" <<< "$PATH" | wc -l
